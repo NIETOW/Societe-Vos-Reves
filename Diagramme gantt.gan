@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-01" view-index="0" gantt-divider-location="453" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="258" order="0"/>
+        <field id="tpd4" name="Date de début" width="97" order="1"/>
+        <field id="tpd5" name="Date de fin" width="97" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[8]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#9900cc #6699ff #00cc00 #ff0000 #ff99ff #99ffff #9999ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Mission_1" color="#9999ff" meeting="false" start="2022-10-25" duration="21" complete="0" thirdDate="2022-12-06" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Wylan à réalisé entièrement la mission 1]]>
+            </notes>
+            <task id="2" name="Proposition et comparaison des STA" color="#9999ff" meeting="false" start="2022-10-25" duration="1" complete="0" thirdDate="2022-12-06" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Avis personnel" color="#9999ff" meeting="false" start="2022-11-01" duration="1" complete="0" thirdDate="2022-12-06" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Liste de logiciels qui devront être installés" color="#9999ff" meeting="false" start="2022-11-15" duration="1" complete="0" thirdDate="2022-12-06" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Elements de configuration et de paramétrage à appliquer avant de remettre le poste" color="#9999ff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-12-06" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Rédiger une procédure pour la préparation d'un poste avant sa délivrance au commercial" color="#9999ff" meeting="false" start="2022-11-22" duration="1" complete="0" thirdDate="2022-12-06" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="7" name="Mission_2" color="#00cc00" meeting="false" start="2022-10-25" duration="31" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Luca à réalisé entièrement la mission 2.]]>
+            </notes>
+            <task id="17" name="Recherche sur les imprimantes" color="#00cc00" meeting="false" start="2022-10-25" duration="16" complete="0" thirdDate="2022-10-17" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="Réalisation sous Excel" color="#00cc00" meeting="false" start="2022-11-15" duration="16" complete="0" thirdDate="2022-10-17" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="Mission_3" color="#ff99ff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Wylan à réalisé entièrement la mission 3]]>
+            </notes>
+            <task id="9" name="Définir la notion de plan de sauvegarde et de plan de restauration" color="#ff99ff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Définir les dispositifs SAN et NAS" color="#ff99ff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Choisir un de ces dispositifs en indiquant ses caractéristiques techniques et son coût" color="#ff99ff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Faire un plan de sauvegarde hebdomadaire en indiquant" color="#ff99ff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="13" name="Mission_4" color="#6699ff" meeting="false" start="2022-10-25" duration="16" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Walid à réalisé entièrement la mission 4]]>
+            </notes>
+            <task id="14" name="Ecriture de la charte sous Word" color="#6699ff" meeting="false" start="2022-10-25" duration="11" complete="0" thirdDate="2022-10-17" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Charte en Diaporama" color="#6699ff" meeting="false" start="2022-11-01" duration="6" complete="0" thirdDate="2022-11-01" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="Ecriture de la charte en HTML" color="#6699ff" meeting="false" start="2022-11-08" duration="6" complete="0" thirdDate="2022-10-17" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="16" name="Mission_5" color="#ff0000" meeting="false" start="2022-12-06" duration="1" complete="0" thirdDate="2022-10-17" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Wylan à réalisé entièrement la mission 5]]>
+            </notes>
+        </task>
+        <task id="19" name="Compte rendu final" color="#9900cc" meeting="false" start="2022-12-06" duration="1" complete="0" thirdDate="2022-11-01" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Walid, Luca et Wylan ont réalisés ce compte rendu final]]>
+            </notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
